@@ -151,7 +151,7 @@ p
    background-image: url('../images/ads-img1.jpg');
 }
 
-.ads-items2
+.ads-item2
 {
   background-image: url('../images/ads-img2.jpg');
 }
@@ -504,4 +504,26 @@ form input[type="submit"]
 .social-widgets h3
 {
    text-transform: uppercase;
+}
+
+/* Responsive Code Design */
+
+@media only screen and (max-width: 768px){
+  .nav ul{
+    display: none;
+  }
+
+  .nav h1{
+    width: 70%;
+  }
+
+  .banner-text p
+  {
+     text-shadow: 3px 3px 5px #312a26;
+  }
+
+  .ads-items
+  {
+    width: 100%;
+  }
 }
