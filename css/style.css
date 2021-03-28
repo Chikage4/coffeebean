@@ -248,6 +248,12 @@ p
    margin-right: 0;
 }
 
+.star-rating img
+{
+  width: .8em;
+  height: .8em;
+}
+
 /* (5) Discount Area */
 .discount
 {
